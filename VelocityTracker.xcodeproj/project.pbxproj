@@ -14,6 +14,7 @@
 		EF6EBB111B1D609600B81746 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6EBB101B1D609600B81746 /* Images.xcassets */; };
 		EF6EBB141B1D609600B81746 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6EBB121B1D609600B81746 /* LaunchScreen.xib */; };
 		EF6EBB201B1D609600B81746 /* VelocityTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6EBB1F1B1D609600B81746 /* VelocityTrackerTests.m */; };
+		EF6EBB2A1B1D63C200B81746 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6EBB291B1D63C200B81746 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		EF6EBB191B1D609600B81746 /* VelocityTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VelocityTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6EBB1E1B1D609600B81746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF6EBB1F1B1D609600B81746 /* VelocityTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VelocityTrackerTests.m; sourceTree = "<group>"; };
+		EF6EBB291B1D63C200B81746 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6EBB2A1B1D63C200B81746 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		EF6EBAF71B1D609600B81746 = {
 			isa = PBXGroup;
 			children = (
+				EF6EBB291B1D63C200B81746 /* CoreMotion.framework */,
 				EF6EBB021B1D609600B81746 /* VelocityTracker */,
 				EF6EBB1C1B1D609600B81746 /* VelocityTrackerTests */,
 				EF6EBB011B1D609600B81746 /* Products */,

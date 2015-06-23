@@ -15,6 +15,13 @@
 @implementation AppDelegate
 
 
+- (CMMotionManager *)motionManager
+{
+    if (!motionManager) motionManager = [[CMMotionManager alloc] init];
+    
+    return motionManager;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
